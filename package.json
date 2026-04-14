@@ -2,6 +2,7 @@
   "version": "1.1.1",
   "name": "markdown-emoji",
   "description": "Add emoji syntax support to Markdown",
+  "builtin": true,
   "main": "./lib/index",
   "scripts": {
     "build": "rm -r lib && rollup -c --bundleConfigAsCjs",
