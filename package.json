@@ -12,14 +12,14 @@
     "url": "https://github.com/inkdropapp/inkdrop-markdown-emoji.git"
   },
   "devDependencies": {
-    "@babel/core": "^7.22.9",
-    "@rollup/plugin-babel": "^6.0.3",
-    "@rollup/plugin-node-resolve": "^15.1.0",
-    "eslint": "^8.45.0",
-    "eslint-config-prettier": "^8.8.0",
-    "prettier": "^3.0.0",
-    "remark-gemoji": "^7.0.1",
-    "rollup": "^3.26.3"
+    "@babel/core": "^7.29.0",
+    "@rollup/plugin-babel": "^7.0.0",
+    "@rollup/plugin-node-resolve": "^16.0.3",
+    "eslint": "^10.2.0",
+    "eslint-config-prettier": "^10.1.8",
+    "prettier": "^3.8.2",
+    "remark-gemoji": "^8.0.0",
+    "rollup": "^4.60.1"
   },
   "engines": {
     "inkdrop": ">=5.6.0 <7.0.0"
