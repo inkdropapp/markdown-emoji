@@ -13,7 +13,7 @@
     "url": "https://github.com/inkdropapp/inkdrop-markdown-emoji.git"
   },
   "devDependencies": {
-    "@babel/core": "^7.29.0",
+    "@babel/core": "^7.29.6",
     "@rollup/plugin-babel": "^7.0.0",
     "@rollup/plugin-node-resolve": "^16.0.3",
     "eslint": "^10.2.0",
