@@ -32,6 +32,5 @@
   },
   "engines": {
     "inkdrop": "^6.0.0"
-  },
-  "builtin": true
+  }
 }
