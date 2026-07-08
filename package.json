@@ -1,28 +1,37 @@
 {
-  "version": "1.1.1",
   "name": "markdown-emoji",
+  "version": "1.1.1",
   "description": "Add emoji syntax support to Markdown",
-  "builtin": true,
-  "main": "./lib/index",
-  "scripts": {
-    "build": "rm -r lib && rollup -c --bundleConfigAsCjs",
-    "watch": "rollup -c --watch --bundleConfigAsCjs"
-  },
+  "keywords": [
+    "emoji",
+    "gemoji",
+    "inkdrop",
+    "markdown"
+  ],
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/inkdropapp/inkdrop-markdown-emoji.git"
   },
+  "main": "./lib/index.js",
+  "scripts": {
+    "dev": "tsdown --watch",
+    "build": "tsdown",
+    "format": "oxfmt",
+    "lint": "oxlint",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
   "devDependencies": {
-    "@babel/core": "^7.29.0",
-    "@rollup/plugin-babel": "^7.0.0",
-    "@rollup/plugin-node-resolve": "^16.0.3",
-    "eslint": "^10.2.0",
-    "eslint-config-prettier": "^10.1.8",
-    "prettier": "^3.8.2",
+    "@inkdropapp/types": "^0.0.9",
+    "oxfmt": "^0.58.0",
+    "oxlint": "^1.73.0",
     "remark-gemoji": "^8.0.0",
-    "rollup": "^4.60.1"
+    "tsdown": "^0.22.3",
+    "typescript": "^6.0.3"
   },
   "engines": {
-    "inkdrop": ">=5.6.0 <7.0.0"
-  }
+    "inkdrop": "^6.0.0"
+  },
+  "builtin": true
 }
